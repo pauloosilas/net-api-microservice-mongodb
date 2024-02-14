@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Servicos.api.Livraria.props" />
+</Project>
