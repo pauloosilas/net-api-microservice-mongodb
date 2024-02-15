@@ -46,5 +46,26 @@ namespace Servicos.api.Livraria.Controllers
         {
             await _autorGenericoRepository.DeleteById(id);
         }
+
+        [HttpPost("paginationF")]
+        public async Task<ActionResult<PaginationEntity<AutorEntity>>> PostPagination(PaginationEntity<AutorEntity> pagination)
+        {
+            var resultados = await _autorGenericoRepository.PaginationBy(
+                        filter => filter.Nome == pagination.Filter,
+                        pagination);
+
+
+             return Ok(resultados);
+            
+        } 
+
+       [HttpPost("pagination")]
+        public async Task<ActionResult<PaginationEntity<AutorEntity>>> PostPaginationByFilter(PaginationEntity<AutorEntity> pagination)
+        {
+            var resultados = await _autorGenericoRepository.PaginationByFilter(pagination);
+
+             return Ok(resultados);
+            
+        } 
     }
 }

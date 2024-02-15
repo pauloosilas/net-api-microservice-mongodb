@@ -44,3 +44,4 @@
 /Volumes/Disco224/Projetos/Net/Microservice_ang/Servicos.api.Livraria/obj/Debug/net8.0/Servicos.api.Livraria.pdb
 /Volumes/Disco224/Projetos/Net/Microservice_ang/Servicos.api.Livraria/obj/Debug/net8.0/Servicos.api.Livraria.genruntimeconfig.cache
 /Volumes/Disco224/Projetos/Net/Microservice_ang/Servicos.api.Livraria/obj/Debug/net8.0/ref/Servicos.api.Livraria.dll
+/Volumes/Disco224/Projetos/Net/Microservice_ang/Servicos.api.Livraria/obj/Debug/net8.0/Servicos.api.Livraria.sourcelink.json
